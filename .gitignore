@@ -1,48 +1,22 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-dist/
-build/
-.eggs/
-
-# Virtual env
-.venv/
-venv/
-env/
-
-# Pytest
-.pytest_cache/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-Thumbs.db
-.DS_Store
-
-# Secrets
 .env
-.env.*
-*.key
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+workspace/*
+!workspace/.gitkeep
 
-# QClaw workspace artifacts
-verify_skill.py
-bug_test.py
-*_20*.md
-.consolidate-state.json
-.qclaw-version
-.openclaw/
-HEARTBEAT.md
-IDENTITY.md
-SOUL.md
-TOOLS.md
-USER.md
-memory/
-skills/
+
+# Local configuration and generated files
+.env.*
+!.env.example
+.backup*/
+.workbuddy/
+output/
+tmp/
+
+# Separate projects and unrelated documents
+/Project Handover Copilot/
+/bilibili-comments-extension-main/
+/04-每周工作管理.zip
+/HandoverCopilot_作品介绍.pdf

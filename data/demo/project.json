@@ -1,0 +1,3071 @@
+{
+  "project_id": "demo-apex-patch",
+  "name": "Apex 版本反馈演示项目",
+  "is_demo": true,
+  "demo_disclaimer": "演示数据为虚构内容，不代表真实 Apex 玩家反馈。",
+  "article": {
+    "title": "虚构 Designer’s Notes：内部演示版本",
+    "url": "https://www.ea.com/games/apex-legends/apex-legends/news",
+    "published_at": "2026-01-15",
+    "fetched_at": "2026-08-01T16:39:07.681528+00:00",
+    "sections": [
+      {
+        "heading": "STARANCHOR",
+        "paragraphs": [
+          "Fictional demo: Tactical cooldown increased from 20s to 25s."
+        ],
+        "items": []
+      },
+      {
+        "heading": "MOLTENWING",
+        "paragraphs": [
+          "Fictional demo: Passive reliability improved after taking damage."
+        ],
+        "items": []
+      },
+      {
+        "heading": "MISTWALKER",
+        "paragraphs": [
+          "Fictional demo: Ultimate visibility behavior adjusted for both teams."
+        ],
+        "items": []
+      }
+    ],
+    "text": "这是完全虚构的演示文章，不代表 EA 官方改动。"
+  },
+  "changes": [
+    {
+      "change_id": "CHG-001",
+      "section": "虚构英雄改动",
+      "category": "英雄削弱",
+      "target": "星锚",
+      "ability_or_system": "战术技能",
+      "change_direction": "削弱",
+      "change_summary": "虚构：延长星锚战术技能的冷却窗口。",
+      "design_goal": "降低连续脱战能力。",
+      "original_problem": "高频位移压缩对手反应时间。",
+      "exact_values": [
+        {
+          "before": "20 秒",
+          "after": "25 秒"
+        }
+      ],
+      "source_heading": "STARANCHOR",
+      "source_excerpt": "Fictional demo: Tactical cooldown increased from 20s to 25s.",
+      "aliases": [
+        "星锚",
+        "StarAnchor",
+        "SA"
+      ],
+      "parse_confidence": 0.96,
+      "inference_notes": [],
+      "confirmed": true
+    },
+    {
+      "change_id": "CHG-002",
+      "section": "虚构英雄改动",
+      "category": "英雄增强",
+      "target": "熔羽",
+      "ability_or_system": "被动技能",
+      "change_direction": "增强",
+      "change_summary": "虚构：提高熔羽被动技能在受击后的可靠性。",
+      "design_goal": "减少被动被轻易打断的情况。",
+      "original_problem": "被动在实战中过于不稳定。",
+      "exact_values": [],
+      "source_heading": "MOLTENWING",
+      "source_excerpt": "Fictional demo: Passive reliability improved after taking damage.",
+      "aliases": [
+        "熔羽",
+        "MoltenWing",
+        "MW"
+      ],
+      "parse_confidence": 0.93,
+      "inference_notes": [],
+      "confirmed": true
+    },
+    {
+      "change_id": "CHG-003",
+      "section": "虚构英雄改动",
+      "category": "机制调整",
+      "target": "雾巡",
+      "ability_or_system": "终极技能",
+      "change_direction": "调整",
+      "change_summary": "虚构：调整雾巡终极技能的视野遮挡机制。",
+      "design_goal": "让交战双方获得更清晰的反馈。",
+      "original_problem": "遮挡信息过强且反馈不一致。",
+      "exact_values": [],
+      "source_heading": "MISTWALKER",
+      "source_excerpt": "Fictional demo: Ultimate visibility behavior adjusted for both teams.",
+      "aliases": [
+        "雾巡",
+        "MistWalker",
+        "MWK"
+      ],
+      "parse_confidence": 0.94,
+      "inference_notes": [],
+      "confirmed": true
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "COM-0001",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 1,
+      "platform": "B站",
+      "content": "支持星锚这次调整,方向是对的,先观察实战。",
+      "likes": 7,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001",
+        "IMG-DEMO-002"
+      ],
+      "original_content": "支持星锚这次调整，方向是对的，先观察实战。",
+      "cleaned_content": "支持星锚这次调整,方向是对的,先观察实战。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0002",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 2,
+      "platform": "B站",
+      "content": "星锚确实需要改,但这个力度不够,核心问题还在。",
+      "likes": 14,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001",
+        "IMG-DEMO-002",
+        "IMG-DEMO-003"
+      ],
+      "original_content": "星锚确实需要改，但这个力度不够，核心问题还在。",
+      "cleaned_content": "星锚确实需要改,但这个力度不够,核心问题还在。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0003",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 3,
+      "platform": "B站",
+      "content": "星锚这样改比较合理,力度刚好。",
+      "likes": 21,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001"
+      ],
+      "original_content": "星锚这样改比较合理，力度刚好。",
+      "cleaned_content": "星锚这样改比较合理,力度刚好。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0004",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 4,
+      "platform": "B站",
+      "content": "方向支持,不过星锚只改数值没有碰到机制问题。",
+      "likes": 28,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001"
+      ],
+      "original_content": "方向支持，不过星锚只改数值没有碰到机制问题。",
+      "cleaned_content": "方向支持,不过星锚只改数值没有碰到机制问题。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0005",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 5,
+      "platform": "B站",
+      "content": "赞成调整星锚,高分段连续使用确实难以反制。",
+      "likes": 35,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001"
+      ],
+      "original_content": "赞成调整星锚，高分段连续使用确实难以反制。",
+      "cleaned_content": "赞成调整星锚,高分段连续使用确实难以反制。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0006",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 6,
+      "platform": "B站",
+      "content": "星锚改动方向没问题,但普通玩家可能受影响更大。",
+      "likes": 42,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001",
+        "IMG-DEMO-002",
+        "IMG-DEMO-004"
+      ],
+      "original_content": "星锚改动方向没问题，但普通玩家可能受影响更大。",
+      "cleaned_content": "星锚改动方向没问题,但普通玩家可能受影响更大。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0007",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 7,
+      "platform": "B站",
+      "content": "反对这次星锚改动,削得太狠了。",
+      "likes": 49,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001"
+      ],
+      "original_content": "反对这次星锚改动，削得太狠了。",
+      "cleaned_content": "反对这次星锚改动,削得太狠了。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0008",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 8,
+      "platform": "B站",
+      "content": "星锚不该这样改,机制会变得更难用。",
+      "likes": 56,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001"
+      ],
+      "original_content": "星锚不该这样改，机制会变得更难用。",
+      "cleaned_content": "星锚不该这样改,机制会变得更难用。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0009",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 9,
+      "platform": "B站",
+      "content": "这波星锚调整太过头,使用体验明显变差。",
+      "likes": 63,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001"
+      ],
+      "original_content": "这波星锚调整太过头，使用体验明显变差。",
+      "cleaned_content": "这波星锚调整太过头,使用体验明显变差。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0010",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 10,
+      "platform": "B站",
+      "content": "不赞成,星锚原来的强点根本不在这里。",
+      "likes": 70,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001"
+      ],
+      "original_content": "不赞成，星锚原来的强点根本不在这里。",
+      "cleaned_content": "不赞成,星锚原来的强点根本不在这里。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0011",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 11,
+      "platform": "B站",
+      "content": "星锚更新后出现技能卡住的 Bug,需要先修。",
+      "likes": 77,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001"
+      ],
+      "original_content": "星锚更新后出现技能卡住的 Bug，需要先修。",
+      "cleaned_content": "星锚更新后出现技能卡住的 Bug,需要先修。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0012",
+      "image_id": "IMG-DEMO-001",
+      "local_index": 12,
+      "platform": "B站",
+      "content": "真棒啊,星锚现在直接卡死,太合理了。",
+      "likes": 1,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.68,
+      "screenshot_filename": "demo_comments_1.png",
+      "source_image_ids": [
+        "IMG-DEMO-001"
+      ],
+      "original_content": "真棒啊，星锚现在直接卡死，太合理了。",
+      "cleaned_content": "真棒啊,星锚现在直接卡死,太合理了。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0013",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 1,
+      "platform": "B站",
+      "content": "星锚改完偶尔会异常退出,方向先不评价。",
+      "likes": 8,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": false,
+      "language": "zh",
+      "ocr_confidence": 0.68,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "星锚改完偶尔会异常退出，方向先不评价。",
+      "cleaned_content": "星锚改完偶尔会异常退出,方向先不评价。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0014",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 2,
+      "platform": "B站",
+      "content": "服务器延迟还是很高,和星锚改动关系不大。",
+      "likes": 15,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "服务器延迟还是很高，和星锚改动关系不大。",
+      "cleaned_content": "服务器延迟还是很高,和星锚改动关系不大。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0015",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 3,
+      "platform": "B站",
+      "content": "排位匹配质量没有变化,不知道这次星锚是否有效。",
+      "likes": 22,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002",
+        "IMG-DEMO-003",
+        "IMG-DEMO-004"
+      ],
+      "original_content": "排位匹配质量没有变化，不知道这次星锚是否有效。",
+      "cleaned_content": "排位匹配质量没有变化,不知道这次星锚是否有效。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0016",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 4,
+      "platform": "B站",
+      "content": "支持星锚这次调整,方向是对的,先观察实战。",
+      "likes": 29,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "支持星锚这次调整，方向是对的，先观察实战。",
+      "cleaned_content": "支持星锚这次调整,方向是对的,先观察实战。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": "COM-0001",
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0017",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 5,
+      "platform": "B站",
+      "content": "支持熔羽这次调整,方向是对的,先观察实战。",
+      "likes": 36,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002",
+        "IMG-DEMO-003"
+      ],
+      "original_content": "支持熔羽这次调整，方向是对的，先观察实战。",
+      "cleaned_content": "支持熔羽这次调整,方向是对的,先观察实战。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0018",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 6,
+      "platform": "B站",
+      "content": "熔羽确实需要改,但这个力度不够,核心问题还在。",
+      "likes": 43,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "熔羽确实需要改，但这个力度不够，核心问题还在。",
+      "cleaned_content": "熔羽确实需要改,但这个力度不够,核心问题还在。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": "COM-0002",
+      "suspected_duplicate": true
+    },
+    {
+      "comment_id": "COM-0019",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 7,
+      "platform": "B站",
+      "content": "熔羽这样改比较合理,力度刚好。",
+      "likes": 50,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "熔羽这样改比较合理，力度刚好。",
+      "cleaned_content": "熔羽这样改比较合理,力度刚好。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0020",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 8,
+      "platform": "B站",
+      "content": "方向支持,不过熔羽只改数值没有碰到机制问题。",
+      "likes": 57,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "方向支持，不过熔羽只改数值没有碰到机制问题。",
+      "cleaned_content": "方向支持,不过熔羽只改数值没有碰到机制问题。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0021",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 9,
+      "platform": "B站",
+      "content": "赞成调整熔羽,高分段连续使用确实难以反制。",
+      "likes": 64,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "赞成调整熔羽，高分段连续使用确实难以反制。",
+      "cleaned_content": "赞成调整熔羽,高分段连续使用确实难以反制。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0022",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 10,
+      "platform": "B站",
+      "content": "熔羽改动方向没问题,但普通玩家可能受影响更大。",
+      "likes": 71,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "熔羽改动方向没问题，但普通玩家可能受影响更大。",
+      "cleaned_content": "熔羽改动方向没问题,但普通玩家可能受影响更大。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": "COM-0006",
+      "suspected_duplicate": true
+    },
+    {
+      "comment_id": "COM-0023",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 11,
+      "platform": "B站",
+      "content": "反对这次熔羽改动,削得太狠了。",
+      "likes": 78,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "反对这次熔羽改动，削得太狠了。",
+      "cleaned_content": "反对这次熔羽改动,削得太狠了。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0024",
+      "image_id": "IMG-DEMO-002",
+      "local_index": 12,
+      "platform": "B站",
+      "content": "熔羽不该这样改,机制会变得更难用。",
+      "likes": 2,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_2.png",
+      "source_image_ids": [
+        "IMG-DEMO-002"
+      ],
+      "original_content": "熔羽不该这样改，机制会变得更难用。",
+      "cleaned_content": "熔羽不该这样改,机制会变得更难用。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0025",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 1,
+      "platform": "论坛",
+      "content": "这波熔羽调整太过头,使用体验明显变差。",
+      "likes": 9,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "这波熔羽调整太过头，使用体验明显变差。",
+      "cleaned_content": "这波熔羽调整太过头,使用体验明显变差。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0026",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 2,
+      "platform": "论坛",
+      "content": "不赞成,熔羽原来的强点根本不在这里。",
+      "likes": 16,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "不赞成，熔羽原来的强点根本不在这里。",
+      "cleaned_content": "不赞成,熔羽原来的强点根本不在这里。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0027",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 3,
+      "platform": "论坛",
+      "content": "熔羽更新后出现技能卡住的 Bug,需要先修。",
+      "likes": 23,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "熔羽更新后出现技能卡住的 Bug，需要先修。",
+      "cleaned_content": "熔羽更新后出现技能卡住的 Bug,需要先修。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0028",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 4,
+      "platform": "论坛",
+      "content": "真棒啊,熔羽现在直接卡死,太合理了。",
+      "likes": 30,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.68,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "真棒啊，熔羽现在直接卡死，太合理了。",
+      "cleaned_content": "真棒啊,熔羽现在直接卡死,太合理了。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0029",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 5,
+      "platform": "论坛",
+      "content": "熔羽改完偶尔会异常退出,方向先不评价。",
+      "likes": 37,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": false,
+      "language": "zh",
+      "ocr_confidence": 0.68,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "熔羽改完偶尔会异常退出，方向先不评价。",
+      "cleaned_content": "熔羽改完偶尔会异常退出,方向先不评价。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0030",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 6,
+      "platform": "论坛",
+      "content": "服务器延迟还是很高,和熔羽改动关系不大。",
+      "likes": 44,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "服务器延迟还是很高，和熔羽改动关系不大。",
+      "cleaned_content": "服务器延迟还是很高,和熔羽改动关系不大。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0031",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 7,
+      "platform": "论坛",
+      "content": "排位匹配质量没有变化,不知道这次熔羽是否有效。",
+      "likes": 51,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "排位匹配质量没有变化，不知道这次熔羽是否有效。",
+      "cleaned_content": "排位匹配质量没有变化,不知道这次熔羽是否有效。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": "COM-0015",
+      "suspected_duplicate": true
+    },
+    {
+      "comment_id": "COM-0032",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 8,
+      "platform": "论坛",
+      "content": "支持熔羽这次调整,方向是对的,先观察实战。",
+      "likes": 58,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "支持熔羽这次调整，方向是对的，先观察实战。",
+      "cleaned_content": "支持熔羽这次调整,方向是对的,先观察实战。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": "COM-0017",
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0033",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 9,
+      "platform": "论坛",
+      "content": "支持雾巡这次调整,方向是对的,先观察实战。",
+      "likes": 65,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003",
+        "IMG-DEMO-004"
+      ],
+      "original_content": "支持雾巡这次调整，方向是对的，先观察实战。",
+      "cleaned_content": "支持雾巡这次调整,方向是对的,先观察实战。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0034",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 10,
+      "platform": "论坛",
+      "content": "雾巡确实需要改,但这个力度不够,核心问题还在。",
+      "likes": 72,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "雾巡确实需要改，但这个力度不够，核心问题还在。",
+      "cleaned_content": "雾巡确实需要改,但这个力度不够,核心问题还在。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": "COM-0002",
+      "suspected_duplicate": true
+    },
+    {
+      "comment_id": "COM-0035",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 11,
+      "platform": "论坛",
+      "content": "雾巡这样改比较合理,力度刚好。",
+      "likes": 79,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "雾巡这样改比较合理，力度刚好。",
+      "cleaned_content": "雾巡这样改比较合理,力度刚好。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0036",
+      "image_id": "IMG-DEMO-003",
+      "local_index": 12,
+      "platform": "论坛",
+      "content": "方向支持,不过雾巡只改数值没有碰到机制问题。",
+      "likes": 3,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_3.png",
+      "source_image_ids": [
+        "IMG-DEMO-003"
+      ],
+      "original_content": "方向支持，不过雾巡只改数值没有碰到机制问题。",
+      "cleaned_content": "方向支持,不过雾巡只改数值没有碰到机制问题。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0037",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 1,
+      "platform": "论坛",
+      "content": "赞成调整雾巡,高分段连续使用确实难以反制。",
+      "likes": 10,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "赞成调整雾巡，高分段连续使用确实难以反制。",
+      "cleaned_content": "赞成调整雾巡,高分段连续使用确实难以反制。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0038",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 2,
+      "platform": "论坛",
+      "content": "雾巡改动方向没问题,但普通玩家可能受影响更大。",
+      "likes": 17,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "雾巡改动方向没问题，但普通玩家可能受影响更大。",
+      "cleaned_content": "雾巡改动方向没问题,但普通玩家可能受影响更大。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": "COM-0006",
+      "suspected_duplicate": true
+    },
+    {
+      "comment_id": "COM-0039",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 3,
+      "platform": "论坛",
+      "content": "反对这次雾巡改动,削得太狠了。",
+      "likes": 24,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "反对这次雾巡改动，削得太狠了。",
+      "cleaned_content": "反对这次雾巡改动,削得太狠了。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0040",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 4,
+      "platform": "论坛",
+      "content": "雾巡不该这样改,机制会变得更难用。",
+      "likes": 31,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "雾巡不该这样改，机制会变得更难用。",
+      "cleaned_content": "雾巡不该这样改,机制会变得更难用。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0041",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 5,
+      "platform": "论坛",
+      "content": "这波雾巡调整太过头,使用体验明显变差。",
+      "likes": 38,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "这波雾巡调整太过头，使用体验明显变差。",
+      "cleaned_content": "这波雾巡调整太过头,使用体验明显变差。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0042",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 6,
+      "platform": "论坛",
+      "content": "不赞成,雾巡原来的强点根本不在这里。",
+      "likes": 45,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "不赞成，雾巡原来的强点根本不在这里。",
+      "cleaned_content": "不赞成,雾巡原来的强点根本不在这里。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0043",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 7,
+      "platform": "论坛",
+      "content": "雾巡更新后出现技能卡住的 Bug,需要先修。",
+      "likes": 52,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "雾巡更新后出现技能卡住的 Bug，需要先修。",
+      "cleaned_content": "雾巡更新后出现技能卡住的 Bug,需要先修。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0044",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 8,
+      "platform": "论坛",
+      "content": "真棒啊,雾巡现在直接卡死,太合理了。",
+      "likes": 59,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.68,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "真棒啊，雾巡现在直接卡死，太合理了。",
+      "cleaned_content": "真棒啊,雾巡现在直接卡死,太合理了。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0045",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 9,
+      "platform": "论坛",
+      "content": "雾巡改完偶尔会异常退出,方向先不评价。",
+      "likes": 66,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": false,
+      "language": "zh",
+      "ocr_confidence": 0.68,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "雾巡改完偶尔会异常退出，方向先不评价。",
+      "cleaned_content": "雾巡改完偶尔会异常退出,方向先不评价。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0046",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 10,
+      "platform": "论坛",
+      "content": "服务器延迟还是很高,和雾巡改动关系不大。",
+      "likes": 73,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "服务器延迟还是很高，和雾巡改动关系不大。",
+      "cleaned_content": "服务器延迟还是很高,和雾巡改动关系不大。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": null,
+      "suspected_duplicate": false
+    },
+    {
+      "comment_id": "COM-0047",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 11,
+      "platform": "论坛",
+      "content": "排位匹配质量没有变化,不知道这次雾巡是否有效。",
+      "likes": 80,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "排位匹配质量没有变化，不知道这次雾巡是否有效。",
+      "cleaned_content": "排位匹配质量没有变化,不知道这次雾巡是否有效。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": "COM-0015",
+      "suspected_duplicate": true
+    },
+    {
+      "comment_id": "COM-0048",
+      "image_id": "IMG-DEMO-004",
+      "local_index": 12,
+      "platform": "论坛",
+      "content": "支持雾巡这次调整,方向是对的,先观察实战。",
+      "likes": 4,
+      "is_reply": false,
+      "reply_context": null,
+      "is_complete": true,
+      "language": "zh",
+      "ocr_confidence": 0.92,
+      "screenshot_filename": "demo_comments_4.png",
+      "source_image_ids": [
+        "IMG-DEMO-004"
+      ],
+      "original_content": "支持雾巡这次调整，方向是对的，先观察实战。",
+      "cleaned_content": "支持雾巡这次调整,方向是对的,先观察实战。",
+      "is_valid": true,
+      "invalid_reason": null,
+      "duplicate_of": "COM-0033",
+      "suspected_duplicate": false
+    }
+  ],
+  "analyses": [
+    {
+      "comment_id": "COM-0001",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "不适用",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "支持星锚这次调整，方向是对的，先观察实战。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0002",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [
+        "改动未触及核心问题"
+      ],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度不足",
+      "overall_stance": "条件性支持",
+      "root_issue_status": "原问题仍未解决",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "星锚确实需要改，但这个力度不够，核心问题还在。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0003",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度适中",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "星锚这样改比较合理，力度刚好。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0004",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [
+        "改动未触及核心问题"
+      ],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度不足",
+      "overall_stance": "条件性支持",
+      "root_issue_status": "原问题仍未解决",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "方向支持，不过星锚只改数值没有碰到机制问题。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0005",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度适中",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "赞成调整星锚，高分段连续使用确实难以反制。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0006",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "不适用",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "星锚改动方向没问题，但普通玩家可能受影响更大。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0007",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "力度过大",
+      "overall_stance": "反对",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "反对这次星锚改动，削得太狠了。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0008",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "不适用",
+      "overall_stance": "反对",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "星锚不该这样改，机制会变得更难用。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0009",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "力度过大",
+      "overall_stance": "反对",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "这波星锚调整太过头，使用体验明显变差。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0010",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [
+        "改动未触及核心问题"
+      ],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "力度不足",
+      "overall_stance": "反对",
+      "root_issue_status": "原问题仍未解决",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "不赞成，星锚原来的强点根本不在这里。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0011",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "Bug",
+      "problem_reason": [
+        "Bug或异常"
+      ],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "产生了新问题",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "星锚更新后出现技能卡住的 Bug，需要先修。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0012",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "Bug",
+      "problem_reason": [
+        "Bug或异常"
+      ],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "产生了新问题",
+      "information_quality": "中",
+      "analysis_confidence": 0.64,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "真棒啊，星锚现在直接卡死，太合理了。",
+      "suspected_sarcasm": true
+    },
+    {
+      "comment_id": "COM-0013",
+      "primary_change_id": "CHG-001",
+      "secondary_change_ids": [],
+      "problem_domain": "Bug",
+      "problem_reason": [
+        "Bug或异常"
+      ],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "产生了新问题",
+      "information_quality": "中",
+      "analysis_confidence": 0.64,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "星锚改完偶尔会异常退出，方向先不评价。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0014",
+      "primary_change_id": null,
+      "secondary_change_ids": [],
+      "problem_domain": "服务器与性能",
+      "problem_reason": [],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "服务器延迟还是很高，和星锚改动关系不大。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0015",
+      "primary_change_id": null,
+      "secondary_change_ids": [],
+      "problem_domain": "匹配与排位",
+      "problem_reason": [],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "排位匹配质量没有变化，不知道这次星锚是否有效。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0017",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "不适用",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "支持熔羽这次调整，方向是对的，先观察实战。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0019",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度适中",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "熔羽这样改比较合理，力度刚好。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0020",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [
+        "改动未触及核心问题"
+      ],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度不足",
+      "overall_stance": "条件性支持",
+      "root_issue_status": "原问题仍未解决",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "方向支持，不过熔羽只改数值没有碰到机制问题。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0021",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度适中",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "赞成调整熔羽，高分段连续使用确实难以反制。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0023",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "力度过大",
+      "overall_stance": "反对",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "反对这次熔羽改动，削得太狠了。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0024",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "不适用",
+      "overall_stance": "反对",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "熔羽不该这样改，机制会变得更难用。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0025",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "力度过大",
+      "overall_stance": "反对",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "这波熔羽调整太过头，使用体验明显变差。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0026",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [
+        "改动未触及核心问题"
+      ],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "力度不足",
+      "overall_stance": "反对",
+      "root_issue_status": "原问题仍未解决",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "不赞成，熔羽原来的强点根本不在这里。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0027",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "Bug",
+      "problem_reason": [
+        "Bug或异常"
+      ],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "产生了新问题",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "熔羽更新后出现技能卡住的 Bug，需要先修。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0028",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "Bug",
+      "problem_reason": [
+        "Bug或异常"
+      ],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "产生了新问题",
+      "information_quality": "中",
+      "analysis_confidence": 0.64,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "真棒啊，熔羽现在直接卡死，太合理了。",
+      "suspected_sarcasm": true
+    },
+    {
+      "comment_id": "COM-0029",
+      "primary_change_id": "CHG-002",
+      "secondary_change_ids": [],
+      "problem_domain": "Bug",
+      "problem_reason": [
+        "Bug或异常"
+      ],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "产生了新问题",
+      "information_quality": "中",
+      "analysis_confidence": 0.64,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "熔羽改完偶尔会异常退出，方向先不评价。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0030",
+      "primary_change_id": null,
+      "secondary_change_ids": [],
+      "problem_domain": "服务器与性能",
+      "problem_reason": [],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "服务器延迟还是很高，和熔羽改动关系不大。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0033",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "不适用",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "支持雾巡这次调整，方向是对的，先观察实战。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0035",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度适中",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "雾巡这样改比较合理，力度刚好。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0036",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [
+        "改动未触及核心问题"
+      ],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度不足",
+      "overall_stance": "条件性支持",
+      "root_issue_status": "原问题仍未解决",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "方向支持，不过雾巡只改数值没有碰到机制问题。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0037",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "支持改动方向",
+      "intensity_attitude": "力度适中",
+      "overall_stance": "支持",
+      "root_issue_status": "原问题部分缓解",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "赞成调整雾巡，高分段连续使用确实难以反制。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0039",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "力度过大",
+      "overall_stance": "反对",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "反对这次雾巡改动，削得太狠了。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0040",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "不适用",
+      "overall_stance": "反对",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "雾巡不该这样改，机制会变得更难用。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0041",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "力度过大",
+      "overall_stance": "反对",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "这波雾巡调整太过头，使用体验明显变差。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0042",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "平衡",
+      "problem_reason": [
+        "改动未触及核心问题"
+      ],
+      "direction_attitude": "反对改动方向",
+      "intensity_attitude": "力度不足",
+      "overall_stance": "反对",
+      "root_issue_status": "原问题仍未解决",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "不赞成，雾巡原来的强点根本不在这里。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0043",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "Bug",
+      "problem_reason": [
+        "Bug或异常"
+      ],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "产生了新问题",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "雾巡更新后出现技能卡住的 Bug，需要先修。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0044",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "Bug",
+      "problem_reason": [
+        "Bug或异常"
+      ],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "产生了新问题",
+      "information_quality": "中",
+      "analysis_confidence": 0.64,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "真棒啊，雾巡现在直接卡死，太合理了。",
+      "suspected_sarcasm": true
+    },
+    {
+      "comment_id": "COM-0045",
+      "primary_change_id": "CHG-003",
+      "secondary_change_ids": [],
+      "problem_domain": "Bug",
+      "problem_reason": [
+        "Bug或异常"
+      ],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "产生了新问题",
+      "information_quality": "中",
+      "analysis_confidence": 0.64,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "雾巡改完偶尔会异常退出，方向先不评价。",
+      "suspected_sarcasm": false
+    },
+    {
+      "comment_id": "COM-0046",
+      "primary_change_id": null,
+      "secondary_change_ids": [],
+      "problem_domain": "服务器与性能",
+      "problem_reason": [],
+      "direction_attitude": "对方向没有明确态度",
+      "intensity_attitude": "不适用",
+      "overall_stance": "仅描述现象",
+      "root_issue_status": "无法判断",
+      "information_quality": "中",
+      "analysis_confidence": 0.88,
+      "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+      "evidence_quote": "服务器延迟还是很高，和雾巡改动关系不大。",
+      "suspected_sarcasm": false
+    }
+  ],
+  "reviews": [
+    {
+      "comment_id": "COM-0012",
+      "reasons": [
+        "OCR 置信度低于 0.75",
+        "分析置信度低于 0.70",
+        "疑似反讽或玩梗"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0012",
+          "image_id": "IMG-DEMO-001",
+          "local_index": 12,
+          "platform": "B站",
+          "content": "真棒啊,星锚现在直接卡死,太合理了。",
+          "likes": 1,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_1.png",
+          "source_image_ids": [
+            "IMG-DEMO-001"
+          ],
+          "original_content": "真棒啊，星锚现在直接卡死，太合理了。",
+          "cleaned_content": "真棒啊,星锚现在直接卡死,太合理了。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0012",
+          "primary_change_id": "CHG-001",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "真棒啊，星锚现在直接卡死，太合理了。",
+          "suspected_sarcasm": true
+        }
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0012",
+          "image_id": "IMG-DEMO-001",
+          "local_index": 12,
+          "platform": "B站",
+          "content": "真棒啊,星锚现在直接卡死,太合理了。",
+          "likes": 1,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_1.png",
+          "source_image_ids": [
+            "IMG-DEMO-001"
+          ],
+          "original_content": "真棒啊，星锚现在直接卡死，太合理了。",
+          "cleaned_content": "真棒啊,星锚现在直接卡死,太合理了。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0012",
+          "primary_change_id": "CHG-001",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "真棒啊，星锚现在直接卡死，太合理了。",
+          "suspected_sarcasm": true
+        }
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0013",
+      "reasons": [
+        "OCR 置信度低于 0.75",
+        "评论截图不完整",
+        "分析置信度低于 0.70"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0013",
+          "image_id": "IMG-DEMO-002",
+          "local_index": 1,
+          "platform": "B站",
+          "content": "星锚改完偶尔会异常退出,方向先不评价。",
+          "likes": 8,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": false,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_2.png",
+          "source_image_ids": [
+            "IMG-DEMO-002"
+          ],
+          "original_content": "星锚改完偶尔会异常退出，方向先不评价。",
+          "cleaned_content": "星锚改完偶尔会异常退出,方向先不评价。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0013",
+          "primary_change_id": "CHG-001",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "星锚改完偶尔会异常退出，方向先不评价。",
+          "suspected_sarcasm": false
+        }
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0013",
+          "image_id": "IMG-DEMO-002",
+          "local_index": 1,
+          "platform": "B站",
+          "content": "星锚改完偶尔会异常退出,方向先不评价。",
+          "likes": 8,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": false,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_2.png",
+          "source_image_ids": [
+            "IMG-DEMO-002"
+          ],
+          "original_content": "星锚改完偶尔会异常退出，方向先不评价。",
+          "cleaned_content": "星锚改完偶尔会异常退出,方向先不评价。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0013",
+          "primary_change_id": "CHG-001",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "星锚改完偶尔会异常退出，方向先不评价。",
+          "suspected_sarcasm": false
+        }
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0016",
+      "reasons": [
+        "尚未完成语义分析"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0016",
+          "image_id": "IMG-DEMO-002",
+          "local_index": 4,
+          "platform": "B站",
+          "content": "支持星锚这次调整,方向是对的,先观察实战。",
+          "likes": 29,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_2.png",
+          "source_image_ids": [
+            "IMG-DEMO-002"
+          ],
+          "original_content": "支持星锚这次调整，方向是对的，先观察实战。",
+          "cleaned_content": "支持星锚这次调整,方向是对的,先观察实战。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0001",
+          "suspected_duplicate": false
+        },
+        "analysis": null
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0016",
+          "image_id": "IMG-DEMO-002",
+          "local_index": 4,
+          "platform": "B站",
+          "content": "支持星锚这次调整,方向是对的,先观察实战。",
+          "likes": 29,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_2.png",
+          "source_image_ids": [
+            "IMG-DEMO-002"
+          ],
+          "original_content": "支持星锚这次调整，方向是对的，先观察实战。",
+          "cleaned_content": "支持星锚这次调整,方向是对的,先观察实战。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0001",
+          "suspected_duplicate": false
+        },
+        "analysis": null
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0018",
+      "reasons": [
+        "疑似重复评论",
+        "尚未完成语义分析"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0018",
+          "image_id": "IMG-DEMO-002",
+          "local_index": 6,
+          "platform": "B站",
+          "content": "熔羽确实需要改,但这个力度不够,核心问题还在。",
+          "likes": 43,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_2.png",
+          "source_image_ids": [
+            "IMG-DEMO-002"
+          ],
+          "original_content": "熔羽确实需要改，但这个力度不够，核心问题还在。",
+          "cleaned_content": "熔羽确实需要改,但这个力度不够,核心问题还在。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0002",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0018",
+          "image_id": "IMG-DEMO-002",
+          "local_index": 6,
+          "platform": "B站",
+          "content": "熔羽确实需要改,但这个力度不够,核心问题还在。",
+          "likes": 43,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_2.png",
+          "source_image_ids": [
+            "IMG-DEMO-002"
+          ],
+          "original_content": "熔羽确实需要改，但这个力度不够，核心问题还在。",
+          "cleaned_content": "熔羽确实需要改,但这个力度不够,核心问题还在。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0002",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0022",
+      "reasons": [
+        "疑似重复评论",
+        "尚未完成语义分析"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0022",
+          "image_id": "IMG-DEMO-002",
+          "local_index": 10,
+          "platform": "B站",
+          "content": "熔羽改动方向没问题,但普通玩家可能受影响更大。",
+          "likes": 71,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_2.png",
+          "source_image_ids": [
+            "IMG-DEMO-002"
+          ],
+          "original_content": "熔羽改动方向没问题，但普通玩家可能受影响更大。",
+          "cleaned_content": "熔羽改动方向没问题,但普通玩家可能受影响更大。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0006",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0022",
+          "image_id": "IMG-DEMO-002",
+          "local_index": 10,
+          "platform": "B站",
+          "content": "熔羽改动方向没问题,但普通玩家可能受影响更大。",
+          "likes": 71,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_2.png",
+          "source_image_ids": [
+            "IMG-DEMO-002"
+          ],
+          "original_content": "熔羽改动方向没问题，但普通玩家可能受影响更大。",
+          "cleaned_content": "熔羽改动方向没问题,但普通玩家可能受影响更大。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0006",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0028",
+      "reasons": [
+        "OCR 置信度低于 0.75",
+        "分析置信度低于 0.70",
+        "疑似反讽或玩梗"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0028",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 4,
+          "platform": "论坛",
+          "content": "真棒啊,熔羽现在直接卡死,太合理了。",
+          "likes": 30,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "真棒啊，熔羽现在直接卡死，太合理了。",
+          "cleaned_content": "真棒啊,熔羽现在直接卡死,太合理了。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0028",
+          "primary_change_id": "CHG-002",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "真棒啊，熔羽现在直接卡死，太合理了。",
+          "suspected_sarcasm": true
+        }
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0028",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 4,
+          "platform": "论坛",
+          "content": "真棒啊,熔羽现在直接卡死,太合理了。",
+          "likes": 30,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "真棒啊，熔羽现在直接卡死，太合理了。",
+          "cleaned_content": "真棒啊,熔羽现在直接卡死,太合理了。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0028",
+          "primary_change_id": "CHG-002",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "真棒啊，熔羽现在直接卡死，太合理了。",
+          "suspected_sarcasm": true
+        }
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0029",
+      "reasons": [
+        "OCR 置信度低于 0.75",
+        "评论截图不完整",
+        "分析置信度低于 0.70"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0029",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 5,
+          "platform": "论坛",
+          "content": "熔羽改完偶尔会异常退出,方向先不评价。",
+          "likes": 37,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": false,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "熔羽改完偶尔会异常退出，方向先不评价。",
+          "cleaned_content": "熔羽改完偶尔会异常退出,方向先不评价。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0029",
+          "primary_change_id": "CHG-002",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "熔羽改完偶尔会异常退出，方向先不评价。",
+          "suspected_sarcasm": false
+        }
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0029",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 5,
+          "platform": "论坛",
+          "content": "熔羽改完偶尔会异常退出,方向先不评价。",
+          "likes": 37,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": false,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "熔羽改完偶尔会异常退出，方向先不评价。",
+          "cleaned_content": "熔羽改完偶尔会异常退出,方向先不评价。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0029",
+          "primary_change_id": "CHG-002",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "熔羽改完偶尔会异常退出，方向先不评价。",
+          "suspected_sarcasm": false
+        }
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0031",
+      "reasons": [
+        "疑似重复评论",
+        "尚未完成语义分析"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0031",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 7,
+          "platform": "论坛",
+          "content": "排位匹配质量没有变化,不知道这次熔羽是否有效。",
+          "likes": 51,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "排位匹配质量没有变化，不知道这次熔羽是否有效。",
+          "cleaned_content": "排位匹配质量没有变化,不知道这次熔羽是否有效。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0015",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0031",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 7,
+          "platform": "论坛",
+          "content": "排位匹配质量没有变化,不知道这次熔羽是否有效。",
+          "likes": 51,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "排位匹配质量没有变化，不知道这次熔羽是否有效。",
+          "cleaned_content": "排位匹配质量没有变化,不知道这次熔羽是否有效。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0015",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0032",
+      "reasons": [
+        "尚未完成语义分析"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0032",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 8,
+          "platform": "论坛",
+          "content": "支持熔羽这次调整,方向是对的,先观察实战。",
+          "likes": 58,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "支持熔羽这次调整，方向是对的，先观察实战。",
+          "cleaned_content": "支持熔羽这次调整,方向是对的,先观察实战。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0017",
+          "suspected_duplicate": false
+        },
+        "analysis": null
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0032",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 8,
+          "platform": "论坛",
+          "content": "支持熔羽这次调整,方向是对的,先观察实战。",
+          "likes": 58,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "支持熔羽这次调整，方向是对的，先观察实战。",
+          "cleaned_content": "支持熔羽这次调整,方向是对的,先观察实战。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0017",
+          "suspected_duplicate": false
+        },
+        "analysis": null
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0034",
+      "reasons": [
+        "疑似重复评论",
+        "尚未完成语义分析"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0034",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 10,
+          "platform": "论坛",
+          "content": "雾巡确实需要改,但这个力度不够,核心问题还在。",
+          "likes": 72,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "雾巡确实需要改，但这个力度不够，核心问题还在。",
+          "cleaned_content": "雾巡确实需要改,但这个力度不够,核心问题还在。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0002",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0034",
+          "image_id": "IMG-DEMO-003",
+          "local_index": 10,
+          "platform": "论坛",
+          "content": "雾巡确实需要改,但这个力度不够,核心问题还在。",
+          "likes": 72,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_3.png",
+          "source_image_ids": [
+            "IMG-DEMO-003"
+          ],
+          "original_content": "雾巡确实需要改，但这个力度不够，核心问题还在。",
+          "cleaned_content": "雾巡确实需要改,但这个力度不够,核心问题还在。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0002",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0038",
+      "reasons": [
+        "疑似重复评论",
+        "尚未完成语义分析"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0038",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 2,
+          "platform": "论坛",
+          "content": "雾巡改动方向没问题,但普通玩家可能受影响更大。",
+          "likes": 17,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "雾巡改动方向没问题，但普通玩家可能受影响更大。",
+          "cleaned_content": "雾巡改动方向没问题,但普通玩家可能受影响更大。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0006",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0038",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 2,
+          "platform": "论坛",
+          "content": "雾巡改动方向没问题,但普通玩家可能受影响更大。",
+          "likes": 17,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "雾巡改动方向没问题，但普通玩家可能受影响更大。",
+          "cleaned_content": "雾巡改动方向没问题,但普通玩家可能受影响更大。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0006",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0044",
+      "reasons": [
+        "OCR 置信度低于 0.75",
+        "分析置信度低于 0.70",
+        "疑似反讽或玩梗"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0044",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 8,
+          "platform": "论坛",
+          "content": "真棒啊,雾巡现在直接卡死,太合理了。",
+          "likes": 59,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "真棒啊，雾巡现在直接卡死，太合理了。",
+          "cleaned_content": "真棒啊,雾巡现在直接卡死,太合理了。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0044",
+          "primary_change_id": "CHG-003",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "真棒啊，雾巡现在直接卡死，太合理了。",
+          "suspected_sarcasm": true
+        }
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0044",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 8,
+          "platform": "论坛",
+          "content": "真棒啊,雾巡现在直接卡死,太合理了。",
+          "likes": 59,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "真棒啊，雾巡现在直接卡死，太合理了。",
+          "cleaned_content": "真棒啊,雾巡现在直接卡死,太合理了。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0044",
+          "primary_change_id": "CHG-003",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "真棒啊，雾巡现在直接卡死，太合理了。",
+          "suspected_sarcasm": true
+        }
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0045",
+      "reasons": [
+        "OCR 置信度低于 0.75",
+        "评论截图不完整",
+        "分析置信度低于 0.70"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0045",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 9,
+          "platform": "论坛",
+          "content": "雾巡改完偶尔会异常退出,方向先不评价。",
+          "likes": 66,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": false,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "雾巡改完偶尔会异常退出，方向先不评价。",
+          "cleaned_content": "雾巡改完偶尔会异常退出,方向先不评价。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0045",
+          "primary_change_id": "CHG-003",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "雾巡改完偶尔会异常退出，方向先不评价。",
+          "suspected_sarcasm": false
+        }
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0045",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 9,
+          "platform": "论坛",
+          "content": "雾巡改完偶尔会异常退出,方向先不评价。",
+          "likes": 66,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": false,
+          "language": "zh",
+          "ocr_confidence": 0.68,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "雾巡改完偶尔会异常退出，方向先不评价。",
+          "cleaned_content": "雾巡改完偶尔会异常退出,方向先不评价。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": null,
+          "suspected_duplicate": false
+        },
+        "analysis": {
+          "comment_id": "COM-0045",
+          "primary_change_id": "CHG-003",
+          "secondary_change_ids": [],
+          "problem_domain": "Bug",
+          "problem_reason": [
+            "Bug或异常"
+          ],
+          "direction_attitude": "对方向没有明确态度",
+          "intensity_attitude": "不适用",
+          "overall_stance": "仅描述现象",
+          "root_issue_status": "产生了新问题",
+          "information_quality": "中",
+          "analysis_confidence": 0.64,
+          "reasoning_summary": "虚构演示标签，用于验证产品流程。",
+          "evidence_quote": "雾巡改完偶尔会异常退出，方向先不评价。",
+          "suspected_sarcasm": false
+        }
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0047",
+      "reasons": [
+        "疑似重复评论",
+        "尚未完成语义分析"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0047",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 11,
+          "platform": "论坛",
+          "content": "排位匹配质量没有变化,不知道这次雾巡是否有效。",
+          "likes": 80,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "排位匹配质量没有变化，不知道这次雾巡是否有效。",
+          "cleaned_content": "排位匹配质量没有变化,不知道这次雾巡是否有效。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0015",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0047",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 11,
+          "platform": "论坛",
+          "content": "排位匹配质量没有变化,不知道这次雾巡是否有效。",
+          "likes": 80,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "排位匹配质量没有变化，不知道这次雾巡是否有效。",
+          "cleaned_content": "排位匹配质量没有变化,不知道这次雾巡是否有效。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0015",
+          "suspected_duplicate": true
+        },
+        "analysis": null
+      },
+      "changed_fields": [],
+      "modified_at": null
+    },
+    {
+      "comment_id": "COM-0048",
+      "reasons": [
+        "尚未完成语义分析"
+      ],
+      "original": {
+        "comment": {
+          "comment_id": "COM-0048",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 12,
+          "platform": "论坛",
+          "content": "支持雾巡这次调整,方向是对的,先观察实战。",
+          "likes": 4,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "支持雾巡这次调整，方向是对的，先观察实战。",
+          "cleaned_content": "支持雾巡这次调整,方向是对的,先观察实战。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0033",
+          "suspected_duplicate": false
+        },
+        "analysis": null
+      },
+      "corrected": {
+        "comment": {
+          "comment_id": "COM-0048",
+          "image_id": "IMG-DEMO-004",
+          "local_index": 12,
+          "platform": "论坛",
+          "content": "支持雾巡这次调整,方向是对的,先观察实战。",
+          "likes": 4,
+          "is_reply": false,
+          "reply_context": null,
+          "is_complete": true,
+          "language": "zh",
+          "ocr_confidence": 0.92,
+          "screenshot_filename": "demo_comments_4.png",
+          "source_image_ids": [
+            "IMG-DEMO-004"
+          ],
+          "original_content": "支持雾巡这次调整，方向是对的，先观察实战。",
+          "cleaned_content": "支持雾巡这次调整,方向是对的,先观察实战。",
+          "is_valid": true,
+          "invalid_reason": null,
+          "duplicate_of": "COM-0033",
+          "suspected_duplicate": false
+        },
+        "analysis": null
+      },
+      "changed_fields": [],
+      "modified_at": null
+    }
+  ],
+  "validations": [],
+  "insights": {
+    "CHG-001": {
+      "change_id": "CHG-001",
+      "observation": "样本中出现了需要优先排查的新问题反馈。",
+      "evidence_comment_ids": [
+        "COM-0001",
+        "COM-0002",
+        "COM-0003",
+        "COM-0004",
+        "COM-0005"
+      ],
+      "inference": "该判断仅用于形成下一轮验证假设，不替代游戏内行为数据。",
+      "validation_direction": "优先修复Bug",
+      "internal_data_needed": [
+        "按玩家水平分层的选取率与胜率",
+        "技能使用频率",
+        "异常与崩溃日志"
+      ],
+      "confidence": "中",
+      "limitations": "截图便利样本存在平台构成、选择与上下文缺失偏差。"
+    },
+    "CHG-002": {
+      "change_id": "CHG-002",
+      "observation": "样本中出现了需要优先排查的新问题反馈。",
+      "evidence_comment_ids": [
+        "COM-0017",
+        "COM-0019",
+        "COM-0020",
+        "COM-0021",
+        "COM-0023"
+      ],
+      "inference": "该判断仅用于形成下一轮验证假设，不替代游戏内行为数据。",
+      "validation_direction": "优先修复Bug",
+      "internal_data_needed": [
+        "按玩家水平分层的选取率与胜率",
+        "技能使用频率",
+        "异常与崩溃日志"
+      ],
+      "confidence": "中",
+      "limitations": "截图便利样本存在平台构成、选择与上下文缺失偏差。"
+    },
+    "CHG-003": {
+      "change_id": "CHG-003",
+      "observation": "样本中出现了需要优先排查的新问题反馈。",
+      "evidence_comment_ids": [
+        "COM-0033",
+        "COM-0035",
+        "COM-0036",
+        "COM-0037",
+        "COM-0039"
+      ],
+      "inference": "该判断仅用于形成下一轮验证假设，不替代游戏内行为数据。",
+      "validation_direction": "优先修复Bug",
+      "internal_data_needed": [
+        "按玩家水平分层的选取率与胜率",
+        "技能使用频率",
+        "异常与崩溃日志"
+      ],
+      "confidence": "中",
+      "limitations": "截图便利样本存在平台构成、选择与上下文缺失偏差。"
+    }
+  },
+  "created_at": "2026-08-01T16:39:07.681528+00:00",
+  "updated_at": "2026-08-01T16:39:07.681528+00:00"
+}
