@@ -2,10 +2,10 @@
 setlocal EnableExtensions
 cd /d "%~dp0"
 
-title Apex Patch Feedback Copilot - STARTING
+title Apex Patch Insight - STARTING
 color 0F
 echo ==================================================
-echo   Apex Patch Feedback Copilot
+echo   Apex Patch Insight
 echo ==================================================
 echo   This window owns the application process.
 echo   Keep it open while using the app.
@@ -24,7 +24,7 @@ if not exist "%VENV_PY%" (
 if not exist "%VENV_PY%" (
     where python >nul 2>nul
     if errorlevel 1 goto :already_running
-title Apex Patch Feedback Copilot - ALREADY RUNNING
+title Apex Patch Insight - ALREADY RUNNING
 color 0E
 echo.
 echo ==================================================
@@ -64,14 +64,14 @@ echo.
 
 start "" /b powershell.exe -NoProfile -WindowStyle Hidden -Command "$u='http://127.0.0.1:8501/_stcore/health'; for($i=0;$i -lt 30;$i++){try{if((Invoke-WebRequest -UseBasicParsing -Uri $u -TimeoutSec 1).Content -eq 'ok'){Start-Process 'http://127.0.0.1:8501'; exit}}catch{}; Start-Sleep -Seconds 1}"
 
-title Apex Patch Feedback Copilot - RUNNING - DO NOT CLOSE
+title Apex Patch Insight - RUNNING - DO NOT CLOSE
 color 0A
 echo STATUS: RUNNING. Waiting for Streamlit output below...
 echo.
 "%VENV_PY%" -m streamlit run app.py --server.address=127.0.0.1 --server.port=8501 --server.headless=true --server.fileWatcherType=none --browser.gatherUsageStats=false
 set "APP_EXIT=%ERRORLEVEL%"
 
-title Apex Patch Feedback Copilot - STOPPED
+title Apex Patch Insight - STOPPED
 color 0C
 echo.
 echo ==================================================
@@ -89,7 +89,7 @@ pause
 exit /b %APP_EXIT%
 
 :already_running
-title Apex Patch Feedback Copilot - ALREADY RUNNING
+title Apex Patch Insight - ALREADY RUNNING
 color 0E
 echo.
 echo ==================================================
@@ -103,21 +103,21 @@ start "" "http://127.0.0.1:8501"
 goto :eof
 
 :no_python
-title Apex Patch Feedback Copilot - PYTHON NOT FOUND
+title Apex Patch Insight - PYTHON NOT FOUND
 color 0C
 echo ERROR: Python was not found. Install Python 3.11 and try again.
 pause
 exit /b 1
 
 :venv_failed
-title Apex Patch Feedback Copilot - VENV FAILED
+title Apex Patch Insight - VENV FAILED
 color 0C
 echo ERROR: Virtual environment creation failed.
 pause
 exit /b 1
 
 :deps_failed
-title Apex Patch Feedback Copilot - DEPENDENCY FAILED
+title Apex Patch Insight - DEPENDENCY FAILED
 color 0C
 echo ERROR: Dependency installation failed. Check the messages above.
 pause

@@ -1,11 +1,11 @@
 @echo off
 setlocal EnableExtensions
 cd /d "%~dp0"
-title Apex Patch Feedback Copilot - RUNNING
+title Apex Patch Insight - RUNNING
 color 0A
 
 echo ==================================================
-echo Apex Patch Feedback Copilot
+echo Apex Patch Insight
 echo Visible foreground console - do not close while using the app.
 echo Close this window to stop the application.
 echo URL: http://127.0.0.1:8503

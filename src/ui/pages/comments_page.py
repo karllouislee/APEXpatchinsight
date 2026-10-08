@@ -46,7 +46,6 @@ def _render_import(ctx: AppContext) -> None:
         st.markdown(
             "支持 **bilibili-comment-crawler** 与新版 Edge 扩展导出的 CSV。"
             "只保留正文、点赞、时间与回复关系；用户名、UID、头像、IP属地等不会写入项目。"
-            "本应用不抓取社区页面，也不需要 Cookie。"
         )
 
 

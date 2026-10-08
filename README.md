@@ -1,10 +1,8 @@
-# Apex Patch Feedback Copilot
+# Apex Patch Insight
 
-中文名：Apex 版本反馈与问题分流助手。
+中文名：Apex 版本洞察。
 
-一个本地运行的 Streamlit MVP：导入 EA 官方 Designer’s Notes，把版本改动结构化；接收已授权导出的 B站评论 CSV；通过 SiliconFlow 的 OpenAI-compatible 接口，用默认开启思考的 GLM-5.3-Flash 完成评论语义分析和受限方向总结；由 Python 独立计算透明统计，并提供证据追溯、人工复核、抽样验证和 Markdown/CSV/JSON 导出。
-
-> 内置演示项目、英雄、改动和评论均为虚构内容，不代表 EA 官方信息或真实 Apex 玩家反馈。
+连接版本更新与玩家反馈的分析工具。导入 EA Designer’s Notes 和 B站评论 CSV，自动提取版本改动、分析评论主题与态度，呈现讨论热度、方向支持率和代表性评论。支持人工复核、证据追溯，以及 Markdown、CSV、JSON 报告导出。
 
 ## 快速开始
 
@@ -68,12 +66,12 @@ SILICONFLOW_REASONING_EFFORT=high
 
 推荐先使用原项目作者维护的 [新版浏览器扩展](https://github.com/1dyer/bilibili-comments-extension) 导出 CSV；也兼容 [bilibili-comment-crawler](https://github.com/1dyer/bilibili-comment-crawler) 的导出字段。
 
-1. 在有权处理目标评论的前提下，用扩展或 Python 工具导出 CSV。
+1. 用扩展或 Python 工具导出评论 CSV。
 2. 打开“评论导入与语义分析”，上传 CSV，可选填写 B站来源页。
 3. 确认授权并设置本次导入上限；默认 200 条，导入过程不调用任何模型 API。
 4. 应用只保留评论正文、点赞数、时间和回复关系。用户名、UID、IP属地、头像、签名、等级、性别和会员状态会在进入项目之前丢弃。
 
-同一评论会使用不可逆匿名指纹去重，因此后续导入更大的增量 CSV 不会重复写入。应用不读取浏览器 Cookie、不保存原始 CSV，也不绕过平台访问限制。
+同一评论会使用不可逆匿名指纹去重，因此后续导入更大的增量 CSV 不会重复写入。
 
 ## 三阶段 AI 流水线
 
@@ -142,7 +140,7 @@ src/services/                   用例编排：组合 core 与 integrations，�
     patch_structurer.py         改动结构化
     comment_analyzer.py         评论语义分析
     insight_generator.py        第三阶段受限方向总结
-    demo_data.py                虚构演示项目和截图生成
+    demo_data.py                演示项目生成
 
 src/ui/                         Streamlit 表现层：布局、组件与 HTML 片段
     app_shell.py                装配 AppContext 并路由到当前主线步骤
@@ -183,12 +181,3 @@ tests/                          pytest 测试
 - `services` 接收普通数据、返回普通数据；需要进度反馈时由 UI 传入回调，服务本身不知道 Streamlit 的存在。
 - `ui` 只做控件与渲染，业务判断一律下沉到 `services` / `core`。
 - 任何需要定位项目文件的模块都从 `core.paths` 取路径，不要再写 `Path(__file__).parents[n]`。
-
-## 已知边界
-
-- 评论 CSV 是便利样本，不能代表全部玩家；讨论频率不等于问题严重度。
-- 不自动抓取社区、不读取或保存 Cookie、不绕过验证码；只接收用户有权处理的导出 CSV，并可选保存去跟踪参数后的 B站来源页。
-- 不判断版本整体成败、不预测在线率/留存、不生成精确平衡数值。
-- EA 页面结构变化时规则解析可能降级；界面会保留手动 URL 和人工编辑兜底。
-- 真实 SiliconFlow 调用必须由使用者配置模型后验证；不同模型对 `json_object` 的兼容性可能不同。
-

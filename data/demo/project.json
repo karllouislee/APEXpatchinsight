@@ -1,8 +1,8 @@
 {
   "project_id": "demo-apex-patch",
-  "name": "Apex 版本反馈演示项目",
+  "name": "Apex 版本洞察 · 演示项目",
   "is_demo": true,
-  "demo_disclaimer": "演示数据为虚构内容，不代表真实 Apex 玩家反馈。",
+  "demo_disclaimer": "演示数据",
   "article": {
     "title": "虚构 Designer’s Notes：内部演示版本",
     "url": "https://www.ea.com/games/apex-legends/apex-legends/news",
@@ -31,7 +31,7 @@
         "items": []
       }
     ],
-    "text": "这是完全虚构的演示文章，不代表 EA 官方改动。"
+    "text": "用于体验版本分析流程的演示文章。"
   },
   "changes": [
     {

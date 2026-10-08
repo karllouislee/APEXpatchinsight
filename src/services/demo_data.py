@@ -9,7 +9,7 @@ from .insight_generator import deterministic_insights
 from ..core.models import STAGE_DONE, Article, CommentAnalysis, PatchChange, Project, RawComment
 from ..core.review_manager import build_review_queue
 
-DISCLAIMER = "演示数据为虚构内容，不代表真实 Apex 玩家反馈。"
+DISCLAIMER = "演示数据"
 
 
 def build_demo_project(demo_dir: Path) -> Project:
@@ -22,10 +22,10 @@ def build_demo_project(demo_dir: Path) -> Project:
     stats = aggregate(changes, cleaned, analyses)
     insights = deterministic_insights(changes, stats)
     project = Project(
-        project_id="demo-apex-patch", name="Apex 版本反馈演示项目", is_demo=True, demo_disclaimer=DISCLAIMER,
+        project_id="demo-apex-patch", name="Apex 版本洞察 · 演示项目", is_demo=True, demo_disclaimer=DISCLAIMER,
         article=Article(
             title="虚构 Designer’s Notes：内部演示版本", url="https://www.ea.com/games/apex-legends/apex-legends/news",
-            published_at="2026-01-15", text="这是完全虚构的演示文章，不代表 EA 官方改动。",
+            published_at="2026-01-15", text="用于体验版本分析流程的演示文章。",
             sections=[{"heading": c.source_heading, "paragraphs": [c.source_excerpt], "items": []} for c in changes],
         ),
         changes=changes, comments=cleaned, analyses=analyses,

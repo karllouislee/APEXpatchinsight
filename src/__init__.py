@@ -1,3 +1,3 @@
-"""Apex Patch Feedback Copilot core package."""
+"""Apex Patch Insight core package."""
 
 __version__ = "0.9.3"

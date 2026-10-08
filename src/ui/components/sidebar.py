@@ -9,7 +9,6 @@ import os
 
 import streamlit as st
 
-from ...services.demo_data import DISCLAIMER
 from ..state import AppContext, KEY_CLOSE_REQUESTED
 from .api_console import render_api_console
 from .api_settings import render_api_settings
@@ -18,7 +17,7 @@ from .editors import render_alias_editor, render_prompt_editor
 
 def render_sidebar(ctx: AppContext, version: str) -> None:
     if ctx.project.is_demo:
-        st.sidebar.warning("当前为虚构演示项目")
+        st.sidebar.caption("演示项目")
 
     render_api_settings(ctx)
 
@@ -55,6 +54,4 @@ def _render_session_buttons(ctx: AppContext) -> None:
 
 
 def render_header(ctx: AppContext) -> None:
-    st.caption("把官方改动与玩家评论映射为可追溯结论；不判断版本整体成败，不替代游戏内行为数据。")
-    if ctx.project.is_demo:
-        st.markdown(f'<div class="notice"><b>{DISCLAIMER}</b></div>', unsafe_allow_html=True)
+    st.caption("Apex 版本洞察 · 连接版本更新与玩家反馈，追溯每条分析结论。")

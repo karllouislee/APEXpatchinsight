@@ -538,7 +538,7 @@ class Project(BaseModel):
     model_config = ConfigDict(extra="ignore")
 
     project_id: str = "demo-apex-patch"
-    name: str = "Apex Patch Feedback Copilot"
+    name: str = "Apex Patch Insight"
     is_demo: bool = False
     demo_disclaimer: str = ""
     article: Article | None = None

@@ -17,7 +17,7 @@ DETERMINATE_DIRECTIONS = {"支持改动方向", "反对改动方向", "对方向
 def generate_markdown(project: Project, stats: dict[str, Any]) -> str:
     lines = [
         f"# {project.name}", "",
-        "> 演示数据为虚构内容，不代表真实 Apex 玩家反馈。" if project.is_demo else "> 本报告基于用户提供的社区评论文件或截图便利样本，不代表全部玩家。",
+        "> 演示数据" if project.is_demo else "> 数据来源：本项目导入的社区评论。",
         "", "## 数据概览", "",
         f"- 有效评论：{stats.get('valid_comment_count', 0)}",
         f"- 已分析评论：{stats.get('analyzed_comment_count', 0)}",
@@ -38,7 +38,6 @@ def generate_markdown(project: Project, stats: dict[str, Any]) -> str:
         insight = project.insights.get(target) if project.insights else None
         if insight:
             lines.extend([f"验证方向：{insight.get('validation_direction', '')}", f"局限：{insight.get('limitations', '')}", ""])
-    lines.extend(["## 样本局限", "", "评论文件与截图样本存在平台构成、导出范围、主动选择、上下文缺失和重复曝光偏差；评论频率不能解释为问题严重度。", ""])
     return "\n".join(lines)
 
 
@@ -97,8 +96,8 @@ def analysis_results_markdown(project: Project, stats: dict[str, Any]) -> str:
     lines = [
         f"# {project.name} · 分析结果",
         "",
-        "> 演示数据为虚构内容，不代表真实 Apex 玩家反馈。" if project.is_demo
-        else "> 本报告基于用户提供的社区评论文件或截图便利样本，不代表全部玩家。",
+        "> 演示数据" if project.is_demo
+        else "> 数据来源：本项目导入的社区评论。",
         "",
         f"共 {len(targets)} 个改动对象，其中 {len(determinate)} 个方向结论确定，"
         f"覆盖 {sum(item.get('related_count', 0) for item in determinate.values())} 条相关评论。",

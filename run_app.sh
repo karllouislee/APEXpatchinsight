@@ -4,7 +4,7 @@ set -u
 cd "$(dirname "$0")" || exit 1
 
 echo "=================================================="
-echo "Apex Patch Feedback Copilot"
+echo "Apex Patch Insight"
 echo "Foreground process: close this terminal or press Ctrl+C to stop."
 echo "URL: http://127.0.0.1:8503"
 echo "=================================================="

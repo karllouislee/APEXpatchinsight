@@ -31,7 +31,7 @@ def _session() -> requests.Session:
     session = requests.Session()
     retry = Retry(total=2, connect=2, read=2, backoff_factor=0.4, status_forcelist=(429, 500, 502, 503, 504), allowed_methods=("GET",))
     session.mount("https://", HTTPAdapter(max_retries=retry))
-    session.headers.update({"User-Agent": "ApexPatchFeedbackCopilot/0.1 (+local research tool)"})
+    session.headers.update({"User-Agent": "ApexPatchInsight/0.1 (+local research tool)"})
     return session
 
 

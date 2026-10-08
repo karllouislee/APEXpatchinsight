@@ -47,7 +47,7 @@ def _render_sources(ctx: AppContext) -> None:
         if st.button("加载内置演示项目", type="primary", width="stretch"):
             ctx.replace_project(build_demo_project(ctx.settings.demo_dir))
             st.session_state.raw_comments = []
-            st.success("已加载虚构演示项目。")
+            st.success("已加载演示项目。")
             st.rerun()
         st.caption("演示项目包含完整改动、评论与分析结果，无需 API Key 即可浏览全流程。")
 
